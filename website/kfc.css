@@ -1,0 +1,192 @@
+@font-face
+{
+  font-family: Ethnocentric;
+  src: url('fonts/ethnocentric\ rg.ttf');
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+.download-text
+{
+  text-align: center;
+  font-family: Ethnocentric;
+  font-size: 25px;
+  color: rgb(221, 250, 255);
+  margin-top: 40px;
+  text-shadow: 2px 2px #07006e;
+}
+
+.short-desc
+{
+  text-align: justify;
+  font-family: Ethnocentric;
+  font-size: 20px;
+  color: #003985;
+  padding-top: calc((0.8 * 5vw) / 4);
+  margin-left: 2%;
+  margin-right: 2%;
+
+  text-shadow: 2px 2px #c4f3ff;
+}
+
+.headline
+{
+  font-family: Ethnocentric;
+  font-size: 25px;
+  color: darkslategrey;
+  margin-left: 25px;
+}
+
+.link
+{
+  font-family: Ethnocentric;
+  font-size: 15px;
+  color: bisque;
+}
+
+#descCarousel
+{
+  height: fit-content;
+  width: 95%;
+  margin: auto;
+}
+
+#carouselContainer
+{
+  padding-top: calc((0.8 * 5vw) / 4);
+}
+
+#descCarousel > .carousel-inner > .item > img
+{
+  margin: auto;
+}
+
+body
+{
+  background-image: url("img/main.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title
+{
+  display: block;
+  padding: 7%;
+  margin: auto;
+  width: auto;
+  height: 94%;
+}
+
+#logo
+{
+  margin: -5% auto 0;
+  width: 100%;
+  height: auto;
+}
+
+#download-btn
+{
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
+
+.content
+{
+  background-color: rgba(215, 231, 255, 0.829);
+  width: 80%;
+  margin: auto;
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 20px #9ecaed;
+  border-radius: 10px;
+}
+
+.navbar
+{
+  overflow: hidden;
+  background-color: rgba(15, 187, 255, 0.95);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+
+  outline: none;
+  box-shadow: 0 0 30px #62c5ff;
+}
+
+.navbar a
+{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.navbar img
+{
+  height: 100%;
+  width: auto;
+  padding: 5%;
+  display: block;
+  transform: translateY(-30%);
+}
+
+.navbar a:hover
+{
+  color: #d4f6ff;
+  background: #00a2ca;
+
+  outline: none;
+  box-shadow: 0 0 30px #8dd5ff;
+}
+
+.screen
+{
+  width: 30%;
+  margin: 1%;
+}
+
+#screenshots-contatiner
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  row-gap: 25px;
+  width:100%;
+}
+
+#screenshots-contatiner > div img
+{
+  max-width:100%;
+}
+
+.page
+{
+  margin-top: 50px;
+}
+
+a.anchor
+{
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -50px;
+}
+
+.glow
+{
+  outline: none;
+  border-color: #5389ff;
+  box-shadow: 0 0 10px #628cff;
+}

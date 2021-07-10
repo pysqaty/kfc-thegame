@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chicken Top Avatar
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Scapula
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur L
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur L/Fibula L
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur L/Fibula L/Metatarsus L
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur L/Fibula L/Metatarsus L/Metatarsus L_end
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur R
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur R/Fibula R
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur R/Fibula R/Metatarsus R
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Femur R/Fibula R/Metatarsus R/Metatarsus R_end
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Humerus L
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus L/Ulna L
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus L/Ulna L/Phalanges L
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus L/Ulna L/Phalanges L/Phalanges L_end
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus R
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus R/Ulna R
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus R/Ulna R/Phalanges R
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Humerus R/Ulna R/Phalanges R/Phalanges R_end
+    m_Weight: 1
+  - m_Path: Armature/Scapula/Ilium
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Ilium/Pygostyle
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Ilium/Pygostyle/Pygostyle_end
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Neck
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Neck/Head
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Neck/Head/Beak Bottom 1
+    m_Weight: 0
+  - m_Path: Armature/Scapula/Neck/Head/Beak Bottom 1/Beak Bottom_end
+    m_Weight: 0
+  - m_Path: Beak Bottom
+    m_Weight: 0
+  - m_Path: Beak Top
+    m_Weight: 0
+  - m_Path: Comb
+    m_Weight: 0
+  - m_Path: Foot Left
+    m_Weight: 0
+  - m_Path: Foot Right
+    m_Weight: 0
+  - m_Path: Leg Left
+    m_Weight: 0
+  - m_Path: Leg Right
+    m_Weight: 0
+  - m_Path: Ref Front
+    m_Weight: 0
+  - m_Path: Ref Side
+    m_Weight: 0
+  - m_Path: Torso
+    m_Weight: 0
+  - m_Path: Wing Left
+    m_Weight: 0
+  - m_Path: Wing Right
+    m_Weight: 0

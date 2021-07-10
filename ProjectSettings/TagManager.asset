@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Fire
+  - GunModel
+  - ShootPoint
+  - LeftGrip
+  - RightGrip
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Environment
+  - GroundCollider
+  - Projectile
+  - PostFx
+  - Minimap
+  - Ground
+  - Mountain
+  - Gun
+  - Player
+  - WaterCollider
+  - Portal
+  - MicrochickCore
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

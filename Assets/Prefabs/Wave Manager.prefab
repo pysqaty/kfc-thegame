@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7997469138434457694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4609421065037790421}
+  - component: {fileID: 8795037412273642242}
+  - component: {fileID: 312005876326844211}
+  m_Layer: 0
+  m_Name: Wave Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4609421065037790421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7997469138434457694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 364.8478, y: 32.662037, z: 351.96698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8795037412273642242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7997469138434457694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9376edf04ac67974999c0ac1b0841ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DifficultyFunction: {fileID: 11400000, guid: 365bdf9d9ad8f14498987528593ebb9e, type: 2}
+  WaveEnemyTypes: []
+  MaxEnemyTypesPerWave: 2
+  spawnPoints: []
+--- !u!114 &312005876326844211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7997469138434457694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9376edf04ac67974999c0ac1b0841ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DifficultyFunction: {fileID: 11400000, guid: 365bdf9d9ad8f14498987528593ebb9e, type: 2}
+  WaveEnemyTypes:
+  - Name: Microchick
+    Prefab: {fileID: 1160136296562368206, guid: 8deed195ed7419c4889f7e61cfe765ed, type: 3}
+    DangerLevel: 0.8
+    MinimalWaveNumber: 1
+  - Name: Regular Chicken
+    Prefab: {fileID: 7464851021510578349, guid: 8e603bb96dd128440bd9667c70913c8b, type: 3}
+    DangerLevel: 1
+    MinimalWaveNumber: 1
+  - Name: Gambit
+    Prefab: {fileID: 1160136296562368206, guid: d84bb26db3a1ae54da939e78e1b9adc4, type: 3}
+    DangerLevel: 4
+    MinimalWaveNumber: 3
+  MaxEnemyTypesPerWave: 3
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

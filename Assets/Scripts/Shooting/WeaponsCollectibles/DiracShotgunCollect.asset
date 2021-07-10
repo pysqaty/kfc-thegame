@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37d3d8c26ffff844a49a5ec9175a44d, type: 3}
+  m_Name: DiracShotgunCollect
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 6815682550632884902, guid: 06b2f3587a16e144191e6935ced11488, type: 3}
+  prefabLocalPos: {x: 0.157, y: 0.574, z: -0.423}
+  prefabLocalRot: {x: 0, y: 0, z: 0}
+  prefabLocalScale: {x: 1, y: 1, z: 1}
+  modelLocalPos: {x: 0, y: -0.017, z: 0.565}
+  modelLocalRot: {x: -90, y: 90, z: 0}
+  modelLocalScale: {x: -0.05166664, y: -0.05166664, z: -0.05166664}
+  shootingPointPosLocal: {x: 0, y: 0, z: 0.843}
+  shootingPointRotLocal: {x: 0, y: 0, z: 0}
+  rightGripPosLocal: {x: -0.00001513958, y: -0.246, z: 0.13}
+  rightGripRotLocal: {x: -86.307, y: -83.013, z: -176.501}
+  leftGripPosLocal: {x: -0.00001513958, y: -0.207, z: 0.398}
+  leftGripRotLocal: {x: 0, y: -43.366, z: -99.476}
+  stats: {fileID: 11400000, guid: 52a982931b2671246945ea7bf97ce6f7, type: 2}

@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="kfc.css">
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#main"><img src="img/logo.png"/></a>
+      <a href="#download" class="link">Pobierz</a>
+      <a href="#description" class="link">Opis</a>
+      <a href="#screenshots" class="link">Galeria</a>
+      <a href="#team" class="link">O projekcie</a>
+    </div>
+
+    <div class="page">
+      <a class="anchor" id="main"></a>
+      <div id="title">
+        <img class="img-fluid" src="img/title.png" id="logo"/>
+        <br>
+        <a class="anchor" id="download"></a>
+        <p class="download-text">
+          Broń się przed atakiem kurczaków
+        </p>
+        <a class="btn btn-primary" id="download-btn">Pobierz teraz</a>
+      </div>
+      <div class="content">
+        <a class="anchor" id="description"></a>
+        <p class="short-desc">
+          Kosmik Fried Chicken to gra TPS, w której jako lis, kosmiczny kowboj, bronisz się przed atakiem kurczaków.
+        </p>
+        <div id="carouselContainer">
+          <div id="descCarousel" class="carousel slide glow" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#descCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#descCarousel" data-slide-to="1"></li>
+              <li data-target="#descCarousel" data-slide-to="2"></li>
+              <li data-target="#descCarousel" data-slide-to="3"></li>
+              <li data-target="#descCarousel" data-slide-to="4"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/weapon.jpg">
+              </div>
+
+              <div class="item">
+                <img src="img/portals.jpg">
+              </div>
+          
+              <div class="item">
+                <img src="img/points.jpg">
+              </div>
+          
+              <div class="item">
+                <img src="img/waves.jpg">
+              </div>
+
+              <div class="item">
+                <img src="img/upgrades.jpg">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#descCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#descCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <a class="anchor" id="screenshots"></a>
+        <h1 class="headline">Galeria</h1>
+        <div id="screenshots-contatiner">
+          <div><img src="img/overview.jpg" class="glow"/></div>
+          <div><img src="img/world.jpg" class="glow"/></div>
+          <div><img src="img/enemies.jpg" class="glow"/></div>
+          <div><img src="img/overview.jpg" class="glow"/></div>
+        </div>
+        <br>
+
+        <a class="anchor" id="team"></a>
+        <h1 class="headline">O projekcie</h1>
+        <p class="short-desc">
+          Gra wykonana została w ramach przedmiotu "Projektowanie środowiska wirtualnego" na drugim semestrze specjalności CAD/CAM.
+        </p>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

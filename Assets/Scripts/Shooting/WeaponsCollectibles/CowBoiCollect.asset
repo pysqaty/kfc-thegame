@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37d3d8c26ffff844a49a5ec9175a44d, type: 3}
+  m_Name: CowBoiCollect
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 8728789296906655720, guid: e2002604d76b07c4dbb6d639d831c976, type: 3}
+  prefabLocalPos: {x: 0.28, y: 0.69, z: -0.35}
+  prefabLocalRot: {x: 0, y: 0, z: 0}
+  prefabLocalScale: {x: 1, y: 1, z: 1}
+  modelLocalPos: {x: 0, y: -0.276, z: 0.807}
+  modelLocalRot: {x: 0, y: 90, z: 0}
+  modelLocalScale: {x: 0.69, y: 0.69, z: 0.69}
+  shootingPointPosLocal: {x: 0, y: 0, z: 1.941}
+  shootingPointRotLocal: {x: 0, y: 0, z: 0}
+  rightGripPosLocal: {x: 0.052, y: -0.746, z: 0.2069856}
+  rightGripRotLocal: {x: -86.307, y: -83.013, z: -176.501}
+  leftGripPosLocal: {x: -0.151, y: -0.582, z: 0.425}
+  leftGripRotLocal: {x: 0, y: -43.366, z: -99.476}
+  stats: {fileID: 11400000, guid: 6ec58793528580a43b43678ca681d627, type: 2}

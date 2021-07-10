@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cdef3411059e5458daa6f81334d2d7, type: 3}
+  m_Name: Shell Ammo
+  m_EditorClassIdentifier: 
+  visualsApplier: {fileID: 11400000, guid: 19d1d40e6daf8174a9e09a086d4b3c58, type: 2}
+  displayname: Shell Ammo
+  description: Deal more damage at close range
+  cost: 800
+  recoilReduction: 1
+  closeDamageMultiplier: 2.5
+  midDamageMultiplier: 2.5
+  farDamageMultiplier: 0.5
+  enemiesToHit: 0
