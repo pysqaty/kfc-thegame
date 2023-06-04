@@ -44,7 +44,13 @@ The game and its features were brought to life using a selection of top-tier dev
 
 The following graphics are intended to promote "Kosmic Fried Chicken", highlighting some of its unique features and atmosphere.
 
-(Please insert the relevant graphics here)
+![waves](./website/img/waves.jpg)
+
+![weapon](./website/img/weapon.jpg)
+
+![points](./website/img/points.jpg)
+
+![upgrades](./website/img/upgrades.jpg)
 
 ## Usage & Contribution
 
@@ -63,13 +69,3 @@ I welcome contributions from the community. If you're interested in contributing
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
-
-![waves](./website/img/waves.jpg)
-
-![weapon](./website/img/weapon.jpg)
-
-![points](./website/img/points.jpg)
-
-![upgrades](./website/img/upgrades.jpg)
